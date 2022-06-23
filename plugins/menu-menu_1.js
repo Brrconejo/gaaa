@@ -369,7 +369,7 @@ contextInfo: {
 conn.sendMessage(m.chat, buttonMessage, fake)}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
+handler.command = /^(menu3|menú3|memu3|memú3|help3|info3|comandos3|allmenu3|2help3|3menu1.2|a3yuda|commands3|commandos3|m|\?)$/i
 export default handler
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)

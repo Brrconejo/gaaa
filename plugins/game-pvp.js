@@ -14,7 +14,7 @@ let caption = `*🎮 𝙶𝙰𝙼𝙴𝚂 - 𝙿𝚅𝙿 - 𝙶𝙰𝙼𝙴𝚂 
 `.trim()
 let footer = `◉ 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 "ok" 𝙿𝙰𝚁𝙰 𝙸𝙽𝙸𝙲𝙸𝙰𝚁 𝙴𝙻 𝙹𝚄𝙴𝙶𝙾`
 conn.suit[id] = {
-chat: await conn.sendButton(m.chat, caption, footer, null, [[`Ok`]], m, { contextInfo: { mentionedJid: conn.parseMention(caption) } }),
+chat: await conn.sendButton(m.chat, caption, footer, null, [[`ok`]], m, { contextInfo: { mentionedJid: conn.parseMention(caption) } }),
 id: id,
 p: m.sender,
 p2: m.mentionedJid[0],
